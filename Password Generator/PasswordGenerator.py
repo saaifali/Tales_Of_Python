@@ -28,11 +28,11 @@ def permute3(s,length):
 	
 def display(passwords):
 	try:
-		print "ALL PASSWORDS FOR GIVEN SEQUENCE"
-		print '-'*60
-		print passwords
+		print ("ALL PASSWORDS FOR GIVEN SEQUENCE")
+		print ('-'*60)
+		print (passwords)
 	except KeyboardInterrupt:
-		print "Display Stopped!"
+		print ("Display Stopped!")
 	
 def lib_optimize(filename):
 	print "Library optimization initiated...\n"
